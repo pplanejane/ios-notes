@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <SearchBox/>
-    <div class="main">
+    <div className="main">
       <Sidebar/>
       <Workspace/>
     </div>

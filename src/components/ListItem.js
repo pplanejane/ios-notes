@@ -19,7 +19,7 @@ function ListItem() {
             </div>
             <div className="note">
                 <h3>Wow, what a cool note</h3>
-                <p>This is an amazing..</p>
+                <p>This is an amazinrgg..</p>
             </div>
             <div className="note">
                 <h3>Wow, what a cool note</h3>

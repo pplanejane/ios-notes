@@ -4,6 +4,7 @@ function Sidebar() {
     return (
         <aside className="sidebar">
           <ListItem/>
+          <ListItem/>
         </aside>
     )
 }

@@ -14,7 +14,7 @@ function SearchBox() {
                     </button>
                 </div>
                 <div className="search">
-                    <input className="input-search" type="text" placeholder="Search" id="search"></input>
+                    <input className="input-search" type="text" placeholder="Search..." id="search"></input>
                 </div>
             </div>
         </header>
