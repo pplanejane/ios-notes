@@ -11,10 +11,60 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <header class="header">
+      <div class="header-content">
+          <div class="buttons">
+              <button class="btn-create">
+                  <img class="img-create" src="../public/icons/create.svg" alt="Create">
+              </button>
+              <button class="btn-delete">
+                  <img class="img-delete" src="../public/icons/trash.svg" alt="Delete">
+              </button>
+          </div>
+          <div class="search">
+              <input class="input-search" type="text" placeholder="Search" id="search"></input>
+          </div>
+      </div>
+  </header>
+  <div class="main">
+      <aside class="sidebar">
+          <div class="note">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+          <div class="note active">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+          <div class="note">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+          <div class="note">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+          <div class="note">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+          <div class="note">
+              <h3>Wow, what a cool note</h3>
+              <p>This is an amazing..</p>
+          </div>
+      </aside>
+      <div class="content">
+          <div class="note-content" contenteditable="true">Enter note..</div>
+      </div>
+  </div>
   </body>
 </html>
