@@ -1,4 +1,20 @@
+import useIndexedDB from '../services/IndexedDB'
+
 function ListItem() {
+
+    const { addData, getData, error } = useIndexedDB();
+
+    const handleAddData = () => {
+        addData({ id: 1, name: 'John' });
+    };
+    
+    const handleGetData = () => {
+        getData((data) => console.log(data));
+    }
+
+    handleAddData();
+    handleGetData();
+
     return (
         <>
             <div className="note">
